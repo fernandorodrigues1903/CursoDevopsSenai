@@ -4,7 +4,7 @@
 
 ##Para rodar o container
 
--> docker run -p 8087:9090 -e APP_NAME=<app_name> -e APP_COLOR=<app_color> fernandoantunesfju/desafio02
+-> docker run -d -p 8087:9090 -e APP_NAME=<app_name> -e APP_COLOR=<app_color> fernandoantunesfju/desafio2
 
 ###Variáves de espera da aplicação
 
