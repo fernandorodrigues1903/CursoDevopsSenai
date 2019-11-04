@@ -1,1 +1,5 @@
+##Para rodar o container
 docker run -p 8087:9090 -e APP_NAME=<app_name> -e APP_COLOR=<app_color> fernando/desafio02
+###Variáves de espera da aplicação
+<app_name> --> Nome para aparecer na tela
+<app_color> --> Cor no fundo (blue, green, yellow, etc...)
